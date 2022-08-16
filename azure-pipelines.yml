@@ -2,6 +2,15 @@
 trigger:
 - main
 
+resources:
+  repositories:
+    - repository: MvcConsoleGood
+      type: github
+      name: saurabs/MvcConsoleGood
+      ref: refs/heads/main
+      endpoint: saurabs
+
+
 extends:
   template: simple-param.yml
   parameters:
