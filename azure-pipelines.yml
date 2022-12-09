@@ -1,12 +1,12 @@
 # File: azure-pipelines.yml
-trigger:
-- main
+#trigger:
+#- main
 
-#trigger: none
-#pr:
-# branches:
-#  include:
-#  - '*' # must quote since '*' is a YAML reserved character; we want a string
+trigger: none
+pr:
+ branches:
+  include:
+  - '*' # must quote since '*' is a YAML reserved character; we want a string
 
 resources:
   repositories:
